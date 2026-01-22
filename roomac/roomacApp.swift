@@ -13,5 +13,7 @@ struct roomacApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowResizability(.contentSize)
+        .defaultSize(width: 1000, height: 720)
     }
 }
